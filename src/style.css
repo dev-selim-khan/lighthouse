@@ -17,7 +17,7 @@ body{
   background: rgba(0,0,0,0.7);
   min-height: 900px;
 }
-.fa,{
+.fa{
   background: #ffffff;
   color: #008ed6;
   font-size: 30px;
@@ -31,9 +31,6 @@ body{
   padding-top: 150px;
 }
 
-section{
-  margin: 80px 0;
-}
 
 #explore-main-section .fa{
   color: #ffffff;
@@ -42,9 +39,13 @@ section{
   border-radius: 5px;
   padding: 4px;
 }
-
-
-
+img{
+  border-radius: 5px;
+}
+#share-section .fa{
+  color: #ffffff;
+  background:#333333;
+}
 
 @media(max-width: 768px){
   #home-section h1{
